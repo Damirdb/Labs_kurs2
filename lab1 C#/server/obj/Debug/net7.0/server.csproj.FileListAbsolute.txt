@@ -1,0 +1,15 @@
+C:\Users\Damir\Desktop\lab1 C#\server\bin\Debug\net7.0\server.exe
+C:\Users\Damir\Desktop\lab1 C#\server\bin\Debug\net7.0\server.deps.json
+C:\Users\Damir\Desktop\lab1 C#\server\bin\Debug\net7.0\server.runtimeconfig.json
+C:\Users\Damir\Desktop\lab1 C#\server\bin\Debug\net7.0\server.dll
+C:\Users\Damir\Desktop\lab1 C#\server\bin\Debug\net7.0\server.pdb
+C:\Users\Damir\Desktop\lab1 C#\server\obj\Debug\net7.0\server.csproj.AssemblyReference.cache
+C:\Users\Damir\Desktop\lab1 C#\server\obj\Debug\net7.0\server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Damir\Desktop\lab1 C#\server\obj\Debug\net7.0\server.AssemblyInfoInputs.cache
+C:\Users\Damir\Desktop\lab1 C#\server\obj\Debug\net7.0\server.AssemblyInfo.cs
+C:\Users\Damir\Desktop\lab1 C#\server\obj\Debug\net7.0\server.csproj.CoreCompileInputs.cache
+C:\Users\Damir\Desktop\lab1 C#\server\obj\Debug\net7.0\server.dll
+C:\Users\Damir\Desktop\lab1 C#\server\obj\Debug\net7.0\refint\server.dll
+C:\Users\Damir\Desktop\lab1 C#\server\obj\Debug\net7.0\server.pdb
+C:\Users\Damir\Desktop\lab1 C#\server\obj\Debug\net7.0\server.genruntimeconfig.cache
+C:\Users\Damir\Desktop\lab1 C#\server\obj\Debug\net7.0\ref\server.dll
