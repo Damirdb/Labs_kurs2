@@ -1,17 +1,12 @@
-const int ledPin = 0;  // Пин, к которому подключен светодиод (0 соответствует GPIO 0, т.е., пину D0 на плате Pico)
-const int potPin = 26; // Пин, к которому подключен потенциометр (GPIO 26)
-
 void setup() {
-  analogWriteResolution(8); // Устанавливаем разрядность ШИМ (8 бит, значения от 0 до 255)
-  pinMode(ledPin, OUTPUT);  // Устанавливаем пин светодиода как выход
+
 }
 
 void loop() {
-  int potValue = analogRead(potPin); // Считываем значение с потенциометра (от 0 до 4095)
+  int potValue = analogRead(A0); 
   
-  // Преобразуем значение от потенциометра в диапазон ШИМ (от 0 до 255) и устанавливаем яркость светодиода
   int brightness = map(potValue, 0, 4095, 0, 255);
-  analogWrite(ledPin, brightness);
+  analogWrite(D0, brightness);
   
-  delayMicroseconds(8333); // Пауза для формирования ШИМ-сигнала с частотой 120 Гц (1 секунда / 120 Гц = 8333 мкс)
 }
+
