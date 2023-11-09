@@ -4,6 +4,7 @@
 FET mosfet(D17, 2);
 
 void setup() {
+  SPI.begin(); // Инициализация шины SPI
   mosfet.begin();
   Serial.begin(9600);
 }
@@ -29,5 +30,3 @@ void loop() {
     mosfet.digitalWrite(modul, key, level); // Устанавливаем уровень для ключа на модуле
   }
 }
-
-
