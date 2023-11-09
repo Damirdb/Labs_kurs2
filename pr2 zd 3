@@ -1,0 +1,33 @@
+#include <SPI.h>
+#include <AmperkaFET.h>
+
+FET mosfet(D17, 2);
+
+void setup() {
+  mosfet.begin();
+  Serial.begin(9600);
+}
+
+void loop() {
+  if (Serial.available() > 0) {
+    char command = Serial.read();
+    uint8_t modul, key, level;
+
+    if (Serial.available() > 0) {
+      modul = Serial.parseInt();
+      key = Serial.parseInt();
+      level = Serial.parseInt();
+    }
+
+    if (modul > 1) {
+      modul = 255;
+    }
+    if (key > 7) {
+      key = 255;
+    }
+
+    mosfet.digitalWrite(modul, key, level); // Устанавливаем уровень для ключа на модуле
+  }
+}
+
+
