@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
@@ -53,25 +53,20 @@ namespace PipeServer
             }, token);
         }
 
-       private static void StartClientProcess()
-{
-    string clientAppPath = "C:\\Users\\Damir\\Desktop\\lab3 !2\\client\\bin\\Debug\\net7.0\\client.exe"; // Укажите свой путь
-
-    try
-    {
-        ProcessStartInfo startInfo = new ProcessStartInfo
+        private static void StartClientProcess()
         {
-            FileName = clientAppPath,
-            UseShellExecute = true
-        };
+            string clientAppPath = "C:\\Users\\Damir\\Desktop\\lab3 !2\\client\\bin\\Debug\\net7.0\\client.exe"; // Укажите свой путь
 
-        Process.Start(startInfo);
-    }
-    catch (Exception ex)
-    {
-        Console.WriteLine($"Ошибка при запуске клиентского приложения: {ex.Message}");
-    }
-}
+            try
+            {
+                Process.Start(clientAppPath);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Ошибка при запуске клиентского приложения: {ex.Message}");
+            }
+        }
+
         private static Task ServerTask(NamedPipeServerStream pipeStream, CancellationToken token)
         {
             return Task.Run(() =>
@@ -143,3 +138,4 @@ namespace PipeServer
         }
     }
 }
+
