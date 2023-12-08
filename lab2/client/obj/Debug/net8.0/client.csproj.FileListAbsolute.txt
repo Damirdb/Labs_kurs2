@@ -1,0 +1,14 @@
+/home/evloev_db/Рабочий стол/lab2/client/bin/Debug/net8.0/client
+/home/evloev_db/Рабочий стол/lab2/client/bin/Debug/net8.0/client.deps.json
+/home/evloev_db/Рабочий стол/lab2/client/bin/Debug/net8.0/client.runtimeconfig.json
+/home/evloev_db/Рабочий стол/lab2/client/bin/Debug/net8.0/client.dll
+/home/evloev_db/Рабочий стол/lab2/client/bin/Debug/net8.0/client.pdb
+/home/evloev_db/Рабочий стол/lab2/client/obj/Debug/net8.0/client.GeneratedMSBuildEditorConfig.editorconfig
+/home/evloev_db/Рабочий стол/lab2/client/obj/Debug/net8.0/client.AssemblyInfoInputs.cache
+/home/evloev_db/Рабочий стол/lab2/client/obj/Debug/net8.0/client.AssemblyInfo.cs
+/home/evloev_db/Рабочий стол/lab2/client/obj/Debug/net8.0/client.csproj.CoreCompileInputs.cache
+/home/evloev_db/Рабочий стол/lab2/client/obj/Debug/net8.0/client.dll
+/home/evloev_db/Рабочий стол/lab2/client/obj/Debug/net8.0/refint/client.dll
+/home/evloev_db/Рабочий стол/lab2/client/obj/Debug/net8.0/client.pdb
+/home/evloev_db/Рабочий стол/lab2/client/obj/Debug/net8.0/client.genruntimeconfig.cache
+/home/evloev_db/Рабочий стол/lab2/client/obj/Debug/net8.0/ref/client.dll
